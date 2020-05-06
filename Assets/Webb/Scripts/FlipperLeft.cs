@@ -35,7 +35,7 @@ namespace webb
                 }
                 else
                 {
-                    spring.targetPosition = -5;
+                    spring.targetPosition = -65;
                 }
                 spring.spring = capultSrentgh;
                 joint.spring = spring;
