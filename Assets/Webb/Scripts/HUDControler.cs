@@ -37,7 +37,7 @@ namespace webb
             textScore.text = $"SCORE:{(int)score}";
             textLives.text = $"Balls:{(int)lives}";
             textMultiplier.text = $"X{(int)multiplier}";
-            textWood.text = $"Wood{(int)wood}";
+
             if (Input.GetButton("Plunger"))
             {
                 xp += 200 * Time.deltaTime;

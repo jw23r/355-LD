@@ -17,7 +17,7 @@ namespace webb
         void Update()
         {
             time += 1;
-            print (time);
+
         }
         void OnTriggerEnter(Collider collider)
         {
