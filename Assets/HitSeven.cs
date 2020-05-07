@@ -18,10 +18,10 @@ void Update()
 {
     if (HitNine.hit9 == true && HitEight.hit8 == true && hit7 == true)
     {
+        transform.position = startPos;
         hit7 = false;
 
         print("its working");
-        transform.position = startPos;
     }
 
 }

@@ -19,10 +19,10 @@ namespace webb
         {
             if (hit.hit1 == true && HitTwo.hit2 == true && hit3 == true)
             {
+                transform.position = startPos;
                 hit3 = false;
 
                 print("its working");
-                transform.position = startPos;
             }
 
         }

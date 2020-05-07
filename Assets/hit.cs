@@ -18,9 +18,9 @@ namespace webb
         {
             if (HitThree.hit3 == true && HitTwo.hit2 == true && hit1 == true)
             {
-                hit1 = false;
                 HUDControler.multiplier += 1;
                 transform.position = startPos;
+                hit1 = false;
             }
         }
         private void OnCollisionEnter(Collision collision)

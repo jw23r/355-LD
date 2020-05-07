@@ -18,10 +18,10 @@ public class HitFive : MonoBehaviour
     {
         if (HitSix.hit6 == true && HitFour.hit4 == true &&  hit5 == true)
         {
+            transform.position = startPos;
             hit5 = false;
 
             print("its working");
-            transform.position = startPos;
         }
 
     }

@@ -19,9 +19,9 @@ namespace webb
         {
             if (hit.hit1 == true && hit2 == true && hit2 == true)
             {
+                transform.position = startPos;
                 hit2 = false;
 
-                transform.position = startPos;
             }
 
         }

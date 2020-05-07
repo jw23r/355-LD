@@ -18,10 +18,12 @@ public class HitEight : MonoBehaviour
     {
         if (HitNine.hit9 == true && HitSeven.hit7 == true && hit8 == true)
         {
+                HUDControler.multiplier += 1;
+
+                transform.position = startPos;
             hit8 = false;
 
             print("its working");
-            transform.position = startPos;
         }
 
     }

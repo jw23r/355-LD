@@ -18,10 +18,12 @@ public class HitFour : MonoBehaviour
     {
         if (HitSix.hit6 == true && HitFive.hit5 == true && hit4 == true)
         {
+                HUDControler.multiplier += 1;
+
+                transform.position = startPos;
             hit4 = false;
 
             print("its working");
-            transform.position = startPos;
         }
 
     }

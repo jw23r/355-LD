@@ -28,11 +28,10 @@ namespace webb
                 if (HUDControler.lives > 0 )
                 {
                     gameObject.transform.position = startPos;
-                    if (time >= 30000)
-                    {
+                  
                         HUDControler.lives -= 1;
                         time = 0;
-                    }
+                    
                     }
 
             }

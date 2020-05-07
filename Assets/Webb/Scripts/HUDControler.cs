@@ -36,7 +36,7 @@ namespace webb
         {
             textScore.text = $"SCORE:{(int)score}";
             textLives.text = $"Balls:{(int)lives}";
-            textMultiplier.text = $"X{(int)multiplier}";
+            textMultiplier.text = $"X{(multiplier)}";
 
             if (Input.GetButton("Plunger"))
             {
